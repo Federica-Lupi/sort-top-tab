@@ -1,4 +1,4 @@
-# wiki-language-project
+# sort-top-tab
 Inferring the network of bilingualism from Wikipedia data.
 
 ## Project overview
