@@ -33,6 +33,6 @@ forvalues i = 1(1)`desired_max' {
 }
 matrix rownames mat_my_top = `the_rows' "Total"
 matrix colnames mat_my_top = "Frequency" "Percentage" "Cumulative percentage"
-esttab matrix(mat_my_top, fmt(%7.0fc %7.3f %7.3f)) using example.tex, nomtitles replace
+esttab matrix(mat_my_top, fmt(%7.0fc %7.3f %7.3f)) using sorted_tab.tex, nomtitles replace
 
 restore
